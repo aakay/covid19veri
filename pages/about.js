@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const About = () => (
   <Layout>
-    <p>This is the about page</p>
+    <p>Tüm veriler <a href="https://twitter.com/drfahrettinkoca">https://twitter.com/drfahrettinkoca</a> hesabından alınmıştır. Tamamı resmi veridir.</p>
   </Layout>
 );
 

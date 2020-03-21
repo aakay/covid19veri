@@ -8,10 +8,10 @@ const linkStyle = {
 const Header = () => (
   <div>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a style={linkStyle}>Grafikler</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a style={linkStyle}>Veriler Hakkında</a>
     </Link>
   </div>
 );

@@ -1,69 +1,63 @@
 const data = [{
-  date: '2020-03-11',
+  date: '11.03',
   cases: 1,
-  deaths: 0,
+  losses: 0,
   tests: 0,
   positive: 1
 }, {
-  date: '2020-03-12',
+  date: '12.03',
   cases: 1,
-  deaths: 0,
+  losses: 0,
   tests: 0,
   positive: 0
 },{
-  date: '2020-03-13',
+  date: '13.03',
   cases: 5,
-  deaths: 0,
+  losses: 0,
   tests: 0,
   positive: 4
 },{
-  date: '2020-03-14',
+  date: '14.03',
   cases: 6,
-  deaths: 0,
+  losses: 0,
   tests: 0,
   positive: 1
 },{
-  date: '2020-03-15',
+  date: '15.03',
   cases: 18,
-  deaths: 0,
+  losses: 0,
   tests: 0,
   positive: 12
 },{
-  date: '2020-03-16',
+  date: '16.03',
   cases: 47,
-  deaths: 0,
+  losses: 0,
   tests: 0,
   positive: 29
 },{
-  date: '2020-03-17',
+  date: '17.03',
   cases: 98,
-  deaths: 1,
+  losses: 1,
   tests: 0,
   positive: 51
 },{
-  date: '2020-03-18',
+  date: '18.03',
   cases: 191,
-  deaths: 2,
+  losses: 2,
   tests: 3656,
   positive: 93
 }, {
-  date: '2020-03-19',
+  date: '19.03',
   cases: 359,
-  deaths: 4,
+  losses: 4,
   tests: 1981,
   positive: 168
 }, {
-  date: '2020-03-20',
+  date: '20.03',
   cases: 670,
-  deaths: 9,
+  losses: 9,
   tests: 3656,
   positive: 311
-}, {
-  date: '2020-03-21',
-  cases: 1200,
-  deaths: 11,
-  tests: 6773,
-  positive: 550
 }];
 
 export default data;
