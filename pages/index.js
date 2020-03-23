@@ -9,6 +9,7 @@ import DailyLosses from '../components/charts/DailyLosses';
 const Index = () => (
   <>
     <Head>
+      <title>Covid-19 Türkiye Verileri</title>
       <link rel="icon" type="image/svg+xml" href="/img/favicon.ico" />
     </Head>
     <Layout>
