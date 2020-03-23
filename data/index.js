@@ -70,6 +70,12 @@ const data = [{
   losses: 30,
   tests: 0,
   positive: 289
+}, {
+  date: '23.03',
+  cases: 1529,
+  losses: 37,
+  tests: 3672,
+  positive: 293
 }];
 
 export default data;
