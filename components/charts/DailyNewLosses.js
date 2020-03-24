@@ -2,16 +2,16 @@ import React from 'react';
 import { CartesianGrid, XAxis, YAxis, Tooltip, AreaChart, Area } from 'recharts';
 import data from '../../data';
 
-const DailyNewCases = () => (
+const DailyNewLosses = () => (
   <>
-    <h2 style={{ marginTop: 15 }}>Yeni tanı</h2>
+    <h2 style={{ marginTop: 15 }}>Yeni kayıp</h2>
     <AreaChart width={600} height={300} data={data} margin={{ top: 15, right: 20, left: 0 }}>
       <CartesianGrid strokeDasharray="3 3" />
-      <Area dataKey="positive" type="monotone" stroke="#8884d8" fill="#8884d8" />
+      <Area dataKey="dailyLoss" type="monotone" stroke="#8884d8" fill="#8884d8" />
       <XAxis dataKey="date" />
       <YAxis />((
       <Tooltip
-        labelFormatter={(value) => `${value} tarihindeki yeni vaka` }
+        labelFormatter={(value) => `${value} tarihindeki kayıp` }
         formatter={(value) => [value, '']} 
         separator=""
       />
@@ -19,4 +19,4 @@ const DailyNewCases = () => (
   </>
 );
 
-export default DailyNewCases
+export default DailyNewLosses

@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import DailyCases from '../components/charts/DailyCases';
 import DailyNewCases from '../components/charts/DailyNewCases';
 import DailyLosses from '../components/charts/DailyLosses';
+import DailyNewLosses from '../components/charts/DailyNewLosses';
 
 const Index = () => (
   <>
@@ -16,6 +17,7 @@ const Index = () => (
       <DailyCases />
       <DailyLosses />
       <DailyNewCases />
+      <DailyNewLosses />
     </Layout>
   </>
 );
