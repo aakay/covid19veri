@@ -5,10 +5,10 @@ import data from '../../data';
 const DailyLosses = () => (
   <>
     <h2 style={{ marginTop: 15 }}>Kayıplar</h2>
-    <AreaChart width={600} height={300} data={data} margin={{ top: 15, right: 20, left: 0 }}>
+    <AreaChart  id="dailyLossesChart" width={600} height={300} data={data} margin={{ top: 15, right: 20, left: 0 }}>
       <CartesianGrid strokeDasharray="3 3" />
       <Area dataKey="losses" type="monotone" stroke="#8884d8" fill="#8884d8" />
-      <XAxis dataKey="date" />
+      <XAxis dataKey="date" offset={10} />
       <YAxis />
       <Tooltip
         labelFormatter={(value) => `${value} tarihindeki toplam kayıp` }
@@ -19,4 +19,4 @@ const DailyLosses = () => (
   </>
 );
 
-export default DailyLosses
+export default DailyLosses;
