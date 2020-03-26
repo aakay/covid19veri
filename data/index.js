@@ -1,4 +1,4 @@
-const data = [{
+const rawData = [{
   date: '11.03',
   cases: 1,
   losses: 0,
@@ -12,42 +12,42 @@ const data = [{
   tests: 0,
   positive: 0,
   dailyLoss: 0
-},{
+}, {
   date: '13.03',
   cases: 5,
   losses: 0,
   tests: 0,
   positive: 4,
   dailyLoss: 0
-},{
+}, {
   date: '14.03',
   cases: 6,
   losses: 0,
   tests: 0,
   positive: 1,
   dailyLoss: 0
-},{
+}, {
   date: '15.03',
   cases: 18,
   losses: 0,
   tests: 0,
   positive: 12,
   dailyLoss: 0
-},{
+}, {
   date: '16.03',
   cases: 47,
   losses: 0,
   tests: 0,
   positive: 29,
   dailyLoss: 0
-},{
+}, {
   date: '17.03',
   cases: 98,
   losses: 1,
   tests: 0,
   positive: 51,
   dailyLoss: 1
-},{
+}, {
   date: '18.03',
   cases: 191,
   losses: 2,
@@ -104,5 +104,10 @@ const data = [{
   positive: 561,
   dailyLoss: 15
 }];
+
+const data = rawData.map(entry => ({
+  ...entry,
+  caseTestRatio: entry.tests ? entry.positive / entry.tests : 0
+}));
 
 export default data;

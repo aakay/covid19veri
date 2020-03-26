@@ -10,17 +10,17 @@ import {
 } from 'recharts';
 import data from '../../data';
 
-const DailyCases = () => (
+const TotalLosses = () => (
   <>
-    <h2 style={{ marginTop: 15 }}>Yeni vaka</h2>
+    <h2 style={{ marginTop: 15 }}>Toplam Kayıp</h2>
     <ResponsiveContainer width={600} aspect={2}>
-      <AreaChart id="dailyNewCasesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
+      <AreaChart id="dailyLossesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />
-        <Area dataKey="positive" type="monotone" stroke="#8884d8" fill="#8884d8" />
+        <Area dataKey="losses" type="monotone" stroke="#8884d8" fill="#8884d8" />
         <XAxis dataKey="date" />
-        <YAxis />((
+        <YAxis />
         <Tooltip
-          labelFormatter={(value) => `${value} tarihindeki vaka`}
+          labelFormatter={(value) => `${value} tarihindeki toplam kayıp`}
           formatter={(value) => [value, '']}
           separator=""
         />
@@ -29,4 +29,4 @@ const DailyCases = () => (
   </>
 );
 
-export default DailyCases;
+export default TotalLosses;

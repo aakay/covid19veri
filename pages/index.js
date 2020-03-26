@@ -2,10 +2,11 @@ import React from 'react';
 import Head from 'next/head';
 
 import Layout from '../components/Layout';
+import TotalCases from '../components/charts/TotalCases';
 import DailyCases from '../components/charts/DailyCases';
-import DailyNewCases from '../components/charts/DailyNewCases';
+import TotalLosses from '../components/charts/TotalLosses';
 import DailyLosses from '../components/charts/DailyLosses';
-import DailyNewLosses from '../components/charts/DailyNewLosses';
+import CaseTestRatio from '../components/charts/CaseTestRatio';
 
 const Index = () => (
   <>
@@ -14,10 +15,11 @@ const Index = () => (
       <link rel="icon" type="image/svg+xml" href="/img/favicon.ico" />
     </Head>
     <Layout>
+      <TotalCases />
+      <TotalLosses />
       <DailyCases />
       <DailyLosses />
-      <DailyNewCases />
-      <DailyNewLosses />
+      <CaseTestRatio />
     </Layout>
   </>
 );
