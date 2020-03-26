@@ -1,18 +1,18 @@
 import React from 'react';
-import { 
-  Area, 
-  AreaChart, 
-  CartesianGrid, 
-  ResponsiveContainer, 
-  Tooltip, 
-  XAxis, 
-  YAxis 
+import {
+  Area,
+  AreaChart,
+  CartesianGrid,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis
 } from 'recharts';
 import data from '../../data';
 
 const DailyLosses = () => (
   <>
-    <h2 style={{ marginTop: 15 }}>Yeni kayıp</h2>
+    <h2 style={{ marginTop: 15 }}>Günlük kayıp</h2>
     <ResponsiveContainer width={600} aspect={2}>
       <AreaChart id="dailyNewLossesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />

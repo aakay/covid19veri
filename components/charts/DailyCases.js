@@ -12,7 +12,7 @@ import data from '../../data';
 
 const DailyCases = () => (
   <>
-    <h2 style={{ marginTop: 15 }}>Yeni vaka</h2>
+    <h2 style={{ marginTop: 15 }}>Günlük vaka</h2>
     <ResponsiveContainer width={600} aspect={2}>
       <AreaChart id="dailyNewCasesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />
