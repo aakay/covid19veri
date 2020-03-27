@@ -10,18 +10,18 @@ import {
 } from 'recharts';
 import data from '../../data';
 
-const CaseTestRatio = () => (
+const LossToCaseRatio = () => (
   <>
-    <h2 style={{ marginTop: 15 }}>Günlük vaka/test oranı</h2>
-    <p style={{ marginTop: 5 }}>Not: Test bilgisi eksikse 0 gösterilir.</p>
+    <h2 style={{ marginTop: 15 }}>Günlük kayıp/vaka oranı</h2>
+    <p style={{ marginTop: 5 }}>Not: Vaka bilgisi eksikse 0 gösterilir. Bu durum çok gerçekçi ve şu an mümkün olmasa da olasılığı öngörülmüştür.</p>
     <ResponsiveContainer width={600} aspect={2}>
       <AreaChart id="dailyNewLossesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />
-        <Area dataKey="caseToTestRatio" type="monotone" stroke="#8884d8" fill="#8884d8" />
+        <Area dataKey="lossToCaseRatio" type="monotone" stroke="#8884d8" fill="#8884d8" />
         <XAxis dataKey="date" />
         <YAxis />((
         <Tooltip
-          labelFormatter={(value) => `${value} tarihindeki vaka/test oranı`}
+          labelFormatter={(value) => `${value} tarihindeki kayıp/vaka oranı`}
           formatter={(value) => [value, '']}
           separator=""
         />
@@ -30,4 +30,4 @@ const CaseTestRatio = () => (
   </>
 );
 
-export default CaseTestRatio;
+export default LossToCaseRatio;

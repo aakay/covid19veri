@@ -7,6 +7,7 @@ import DailyCases from '../components/charts/DailyCases';
 import TotalLosses from '../components/charts/TotalLosses';
 import DailyLosses from '../components/charts/DailyLosses';
 import CaseTestRatio from '../components/charts/CaseTestRatio';
+import LossToCaseRatio from '../components/charts/LossToCaseRatio';
 
 const Index = () => (
   <>
@@ -20,6 +21,7 @@ const Index = () => (
       <DailyCases />
       <DailyLosses />
       <CaseTestRatio />
+      <LossToCaseRatio />
     </Layout>
   </>
 );

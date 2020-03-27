@@ -114,7 +114,8 @@ const rawData = [{
 
 const data = rawData.map(entry => ({
   ...entry,
-  caseTestRatio: entry.tests ? entry.positive / entry.tests : 0
+  caseToTestRatio: entry.tests ? entry.positive / entry.tests : 0,
+  lossToCaseRatio: entry.cases ? entry.losses / entry.cases : 0
 }));
 
 export default data;
