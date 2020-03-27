@@ -12,7 +12,7 @@ import data from '../../data';
 
 const LossToCaseRatio = () => (
   <>
-    <h2 style={{ marginTop: 15 }}>Günlük kayıp/vaka oranı</h2>
+    <h2 style={{ marginTop: 15 }}>Günlük toplam kayıp/vaka oranı</h2>
     <p style={{ marginTop: 5 }}>Not: Vaka bilgisi eksikse 0 gösterilir. Bu durum çok gerçekçi ve şu an mümkün olmasa da olasılığı öngörülmüştür.</p>
     <ResponsiveContainer width={600} aspect={2}>
       <AreaChart id="dailyNewLossesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
