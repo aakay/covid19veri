@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const About = () => (
   <Layout>
-    <p>Tüm veriler <a href="https://twitter.com/drfahrettinkoca">https://twitter.com/drfahrettinkoca</a> hesabından alınmıştır. Tamamı resmi veridir.</p>
+    <p>Tüm veriler <a href="https://twitter.com/drfahrettinkoca">https://twitter.com/drfahrettinkoca</a> hesabından ve <a href="https://covid19.saglik.gov.tr/">https://covid19.saglik.gov.tr/</a> adresinden alınmıştır. Tamamı resmi veridir.</p>
     <p>Bu site, tüm verileri bir arada görebilmek konusunda kolaylık olması için yapılmıştır.</p>
   </Layout>
 );
