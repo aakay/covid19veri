@@ -145,12 +145,19 @@ const rawData = [{
   tests: 15422,
   positive: 2704,
   dailyLoss: 46
+}, {
+  date: '01.04',
+  cases: 15679,
+  losses: 277,
+  tests: 14396,
+  positive: 2148,
+  dailyLoss: 63
 }];
 
 const data = rawData.map(entry => ({
   ...entry,
-  caseToTestRatio: entry.tests ? entry.positive / entry.tests : 0,
-  lossToCaseRatio: entry.cases ? entry.losses / entry.cases : 0
+  caseToTestRatio: entry.tests ? entry.positive / entry.tests : null,
+  lossToCaseRatio: entry.cases ? entry.losses / entry.cases : null
 }));
 
 export default data;
