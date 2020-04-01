@@ -14,7 +14,7 @@ import CustomizedAxisTick from '../common/CustomizedAxisTick';
 const LossToCaseRatio = () => (
   <>
     <h2 style={{ marginTop: 15 }}>Günlük toplam kayıp/vaka oranı</h2>
-    <p style={{ marginTop: 5 }}>Not: Vaka bilgisi eksikse 0 gösterilir. Bu durum çok gerçekçi ve şu an mümkün olmasa da olasılığı öngörülmüştür.</p>
+    <p style={{ marginTop: 5 }}>Not: Vaka bilgisi eksikse o gün için veri göstrilmemektedir. Bu durum çok gerçekçi ve şu an mümkün olmasa da olasılığı öngörülmüştür.</p>
     <ResponsiveContainer width={600} aspect={1.5}>
       <AreaChart id="lossToCaseRatioChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />

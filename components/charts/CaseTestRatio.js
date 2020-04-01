@@ -14,7 +14,7 @@ import CustomizedAxisTick from '../common/CustomizedAxisTick';
 const CaseTestRatio = () => (
   <>
     <h2 style={{ marginTop: 15 }}>Günlük vaka/test oranı</h2>
-    <p style={{ marginTop: 5 }}>Not: Test bilgisi eksikse 0 gösterilir.</p>
+    <p style={{ marginTop: 5 }}>Not: Test bilgisi eksikse o gün için veri gösterilmemiştir</p>
     <ResponsiveContainer width={600} aspect={1.5}>
       <AreaChart id="dailyNewLossesChart" data={data} margin={{ top: 15, right: 20, left: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />
