@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'antd';
 
 import TotalCases from './components/charts/TotalCases';
 import TotalLosses from './components/charts/TotalLosses';
