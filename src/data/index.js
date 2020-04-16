@@ -1,0 +1,285 @@
+const rawData = [{
+  date: '11.03',
+  cases: 1,
+  losses: 0,
+  tests: 0,
+  positive: 1,
+  dailyLoss: 0
+}, {
+  date: '12.03',
+  cases: 1,
+  losses: 0,
+  tests: 0,
+  positive: 0,
+  dailyLoss: 0
+}, {
+  date: '13.03',
+  cases: 5,
+  losses: 0,
+  tests: 0,
+  positive: 4,
+  dailyLoss: 0
+}, {
+  date: '14.03',
+  cases: 6,
+  losses: 0,
+  tests: 0,
+  positive: 1,
+  dailyLoss: 0
+}, {
+  date: '15.03',
+  cases: 18,
+  losses: 0,
+  tests: 0,
+  positive: 12,
+  dailyLoss: 0
+}, {
+  date: '16.03',
+  cases: 47,
+  losses: 0,
+  tests: 0,
+  positive: 29,
+  dailyLoss: 0
+}, {
+  date: '17.03',
+  cases: 98,
+  losses: 1,
+  tests: 0,
+  positive: 51,
+  dailyLoss: 1
+}, {
+  date: '18.03',
+  cases: 191,
+  losses: 2,
+  tests: 3656,
+  positive: 93,
+  dailyLoss: 1
+}, {
+  date: '19.03',
+  cases: 359,
+  losses: 4,
+  tests: 1981,
+  positive: 168,
+  dailyLoss: 2
+}, {
+  date: '20.03',
+  cases: 670,
+  losses: 9,
+  tests: 3656,
+  positive: 311,
+  dailyLoss: 5
+}, {
+  date: '21.03',
+  cases: 947,
+  losses: 21,
+  tests: 2953,
+  positive: 277,
+  dailyLoss: 12
+}, {
+  date: '22.03',
+  cases: 1236,
+  losses: 30,
+  tests: 0,
+  positive: 289,
+  dailyLoss: 9
+}, {
+  date: '23.03',
+  cases: 1529,
+  losses: 37,
+  tests: 3672,
+  positive: 293,
+  dailyLoss: 7
+}, {
+  date: '24.03',
+  cases: 1872,
+  losses: 44,
+  tests: 3952,
+  positive: 343,
+  dailyLoss: 7
+}, {
+  date: '25.03',
+  cases: 2433,
+  losses: 59,
+  tests: 5035,
+  positive: 561,
+  dailyLoss: 15
+}, {
+  date: '26.03',
+  cases: 3629,
+  losses: 75,
+  tests: 7286,
+  positive: 1196,
+  dailyLoss: 16
+}, {
+  date: '27.03',
+  cases: 5698,
+  losses: 92,
+  tests: 7533,
+  positive: 2069,
+  dailyLoss: 17
+}, {
+  date: '28.03',
+  cases: 7402,
+  losses: 108,
+  tests: 7641,
+  positive: 1704,
+  dailyLoss: 16
+}, {
+  date: '29.03',
+  cases: 9217,
+  losses: 131,
+  tests: 9982,
+  positive: 1815,
+  dailyLoss: 23
+}, {
+  date: '30.03',
+  cases: 10827,
+  losses: 168,
+  tests: 11535,
+  positive: 1610,
+  dailyLoss: 37
+}, {
+  date: '31.03',
+  cases: 13531,
+  losses: 214,
+  tests: 15422,
+  positive: 2704,
+  dailyLoss: 46
+}, {
+  date: '01.04',
+  cases: 15679,
+  losses: 277,
+  tests: 14396,
+  positive: 2148,
+  dailyLoss: 63
+}, {
+  date: '02.04',
+  cases: 18135,
+  losses: 356,
+  tests: 18757,
+  positive: 2456,
+  dailyLoss: 79
+}, {
+  date: '03.04',
+  cases: 20921,
+  losses: 425,
+  tests: 16160,
+  positive: 2786,
+  dailyLoss: 69
+}, {
+  date: '04.04',
+  cases: 23934,
+  losses: 501,
+  tests: 19664,
+  positive: 3013,
+  dailyLoss: 76,
+  recovery: 786,
+  dailyRecovery: 302
+}, {
+  date: '05.04',
+  cases: 27069,
+  losses: 574,
+  tests: 20065,
+  positive: 3135,
+  dailyLoss: 73,
+  recovery: 1042,
+  dailyRecovery: 256
+}, {
+  date: '06.04',
+  cases: 30217,
+  losses: 649,
+  tests: 21400,
+  positive: 3148,
+  dailyLoss: 75,
+  recovery: 1326,
+  dailyRecovery: 284
+}, {
+  date: '07.04',
+  cases: 34109,
+  losses: 725,
+  tests: 20023,
+  positive: 3892,
+  dailyLoss: 76,
+  recovery: 1582,
+  dailyRecovery: 256
+}, {
+  date: '08.04',
+  cases: 38226,
+  losses: 812,
+  tests: 24900,
+  positive: 4117,
+  dailyLoss: 87,
+  recovery: 1846,
+  dailyRecovery: 264
+}, {
+  date: '09.04',
+  cases: 42282,
+  losses: 908,
+  tests: 28578,
+  positive: 4056,
+  dailyLoss: 96,
+  recovery: 2142,
+  dailyRecovery: 296
+}, {
+  date: '10.04',
+  cases: 47029,
+  losses: 1006,
+  tests: 30864,
+  positive: 4747,
+  dailyLoss: 98,
+  recovery: 2423,
+  dailyRecovery: 281
+}, {
+  date: '11.04',
+  cases: 52167,
+  losses: 1101,
+  tests: 33170,
+  positive: 5138,
+  dailyLoss: 95,
+  recovery: 2965,
+  dailyRecovery: 542
+}, {
+  date: '12.04',
+  cases: 56956,
+  losses: 1198,
+  tests: 35720,
+  positive: 4789,
+  dailyLoss: 97,
+  recovery: 3446,
+  dailyRecovery: 481
+}, {
+  date: '13.04',
+  cases: 61049,
+  losses: 1296,
+  tests: 34456,
+  positive: 4093,
+  dailyLoss: 98,
+  recovery: 3957,
+  dailyRecovery: 511
+}, {
+  date: '14.04',
+  cases: 65111,
+  losses: 1403,
+  tests: 33070,
+  positive: 4062,
+  dailyLoss: 107,
+  recovery: 4799,
+  dailyRecovery: 842
+}, {
+  date: '15.04',
+  cases: 69392,
+  losses: 1518,
+  tests: 34090,
+  positive: 4281,
+  dailyLoss: 115,
+  recovery: 5674,
+  dailyRecovery: 875
+}];
+
+const data = rawData.map(entry => ({
+  ...entry,
+  caseToTestRatio: entry.tests ? entry.positive / entry.tests : null,
+  lossToCaseRatio: entry.cases ? entry.losses / entry.cases : null
+}));
+
+export default data;
