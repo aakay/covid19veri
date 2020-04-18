@@ -1,11 +1,11 @@
 import React from 'react';
 
-import TotalCases from './components/charts/TotalCases';
-import TotalLosses from './components/charts/TotalLosses';
-import DailyCases from './components/charts/DailyCases';
-import DailyLosses from './components/charts/DailyLosses';
-import CaseTestRatio from './components/charts/CaseTestRatio';
-import LossToCaseRatio from './components/charts/LossToCaseRatio';
+import TotalCases from './components/TotalCases';
+import TotalLosses from './components/TotalLosses';
+import DailyCases from './components/DailyCases';
+import DailyLosses from './components/DailyLosses';
+import CaseTestRatio from './components/CaseTestRatio';
+import LossToCaseRatio from './components/LossToCaseRatio';
 
 import './App.css';
 
