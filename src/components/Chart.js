@@ -15,6 +15,7 @@ export default ({ id, chartDataKey, headerText, labelFormatter, formatter, notes
           dataKey="date"
           height={100}
           tick={<CustomizedAxisTick />}
+          interval={1}
         />
         <YAxis />
         <Tooltip
