@@ -6,7 +6,7 @@ export default () => (
   <Chart
     id="caseToTestRatioChart"
     chartDataKey="caseToTestRatio"
-    labelFormatter={(value) => `${value} tarihindeki vaka/test oranı`}
+    labelFormatter={(value) => `${value} tarihindeki günlük vaka/test oranı`}
     headerText="Günlük vaka/test oranı"
     formatter={(value) => [getValueInPercent(value), '']}
     notes="Not: Test bilgisi eksikse o gün için veri gösterilmemiştir."
