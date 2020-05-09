@@ -472,6 +472,24 @@ const rawData = [{
   dailyLoss: 57,
   recovery: 82984,
   dailyRecovery: 4782
+}, {
+  date: '08.05',
+  cases: 135569,
+  losses: 3689,
+  tests: 33687,
+  positive: 1848,
+  dailyLoss: 48,
+  recovery: 86396,
+  dailyRecovery: 3412
+}, {
+  date: '09.05',
+  cases: 137115,
+  losses: 3739,
+  tests: 35605,
+  positive: 1546,
+  dailyLoss: 50,
+  recovery: 89480,
+  dailyRecovery: 3084
 }];
 
 const data = rawData.map(entry => ({
