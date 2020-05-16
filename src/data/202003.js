@@ -1,0 +1,148 @@
+export default [{
+  date: '11.03',
+  cases: 1,
+  losses: 0,
+  tests: 0,
+  positive: 1,
+  dailyLoss: 0
+}, {
+  date: '12.03',
+  cases: 1,
+  losses: 0,
+  tests: 0,
+  positive: 0,
+  dailyLoss: 0
+}, {
+  date: '13.03',
+  cases: 5,
+  losses: 0,
+  tests: 0,
+  positive: 4,
+  dailyLoss: 0
+}, {
+  date: '14.03',
+  cases: 6,
+  losses: 0,
+  tests: 0,
+  positive: 1,
+  dailyLoss: 0
+}, {
+  date: '15.03',
+  cases: 18,
+  losses: 0,
+  tests: 0,
+  positive: 12,
+  dailyLoss: 0
+}, {
+  date: '16.03',
+  cases: 47,
+  losses: 0,
+  tests: 0,
+  positive: 29,
+  dailyLoss: 0
+}, {
+  date: '17.03',
+  cases: 98,
+  losses: 1,
+  tests: 0,
+  positive: 51,
+  dailyLoss: 1
+}, {
+  date: '18.03',
+  cases: 191,
+  losses: 2,
+  tests: 3656,
+  positive: 93,
+  dailyLoss: 1
+}, {
+  date: '19.03',
+  cases: 359,
+  losses: 4,
+  tests: 1981,
+  positive: 168,
+  dailyLoss: 2
+}, {
+  date: '20.03',
+  cases: 670,
+  losses: 9,
+  tests: 3656,
+  positive: 311,
+  dailyLoss: 5
+}, {
+  date: '21.03',
+  cases: 947,
+  losses: 21,
+  tests: 2953,
+  positive: 277,
+  dailyLoss: 12
+}, {
+  date: '22.03',
+  cases: 1236,
+  losses: 30,
+  tests: 0,
+  positive: 289,
+  dailyLoss: 9
+}, {
+  date: '23.03',
+  cases: 1529,
+  losses: 37,
+  tests: 3672,
+  positive: 293,
+  dailyLoss: 7
+}, {
+  date: '24.03',
+  cases: 1872,
+  losses: 44,
+  tests: 3952,
+  positive: 343,
+  dailyLoss: 7
+}, {
+  date: '25.03',
+  cases: 2433,
+  losses: 59,
+  tests: 5035,
+  positive: 561,
+  dailyLoss: 15
+}, {
+  date: '26.03',
+  cases: 3629,
+  losses: 75,
+  tests: 7286,
+  positive: 1196,
+  dailyLoss: 16
+}, {
+  date: '27.03',
+  cases: 5698,
+  losses: 92,
+  tests: 7533,
+  positive: 2069,
+  dailyLoss: 17
+}, {
+  date: '28.03',
+  cases: 7402,
+  losses: 108,
+  tests: 7641,
+  positive: 1704,
+  dailyLoss: 16
+}, {
+  date: '29.03',
+  cases: 9217,
+  losses: 131,
+  tests: 9982,
+  positive: 1815,
+  dailyLoss: 23
+}, {
+  date: '30.03',
+  cases: 10827,
+  losses: 168,
+  tests: 11535,
+  positive: 1610,
+  dailyLoss: 37
+}, {
+  date: '31.03',
+  cases: 13531,
+  losses: 214,
+  tests: 15422,
+  positive: 2704,
+  dailyLoss: 46
+}];

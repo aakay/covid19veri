@@ -1,0 +1,145 @@
+export default [{
+  date: '01.05',
+  cases: 122392,
+  losses: 3258,
+  tests: 41431,
+  positive: 2188,
+  dailyLoss: 84,
+  recovery: 53808,
+  dailyRecovery: 4922
+}, {
+  date: '02.05',
+  cases: 124375,
+  losses: 3336,
+  tests: 36318,
+  positive: 1983,
+  dailyLoss: 78,
+  recovery: 58259,
+  dailyRecovery: 4451
+}, {
+  date: '03.05',
+  cases: 126045,
+  losses: 3397,
+  tests: 24001,
+  positive: 1670,
+  dailyLoss: 61,
+  recovery: 63151,
+  dailyRecovery: 4892
+}, {
+  date: '04.05',
+  cases: 127659,
+  losses: 3461,
+  tests: 35771,
+  positive: 1614,
+  dailyLoss: 64,
+  recovery: 68166,
+  dailyRecovery: 5015
+}, {
+  date: '05.05',
+  cases: 129491,
+  losses: 3520,
+  tests: 33283,
+  positive: 1832,
+  dailyLoss: 59,
+  recovery: 73285,
+  dailyRecovery: 5119
+}, {
+  date: '06.05',
+  cases: 131744,
+  losses: 3584,
+  tests: 30303,
+  positive: 2253,
+  dailyLoss: 64,
+  recovery: 78202,
+  dailyRecovery: 4917
+}, {
+  date: '07.05',
+  cases: 133721,
+  losses: 3641,
+  tests: 30395,
+  positive: 1977,
+  dailyLoss: 57,
+  recovery: 82984,
+  dailyRecovery: 4782
+}, {
+  date: '08.05',
+  cases: 135569,
+  losses: 3689,
+  tests: 33687,
+  positive: 1848,
+  dailyLoss: 48,
+  recovery: 86396,
+  dailyRecovery: 3412
+}, {
+  date: '09.05',
+  cases: 137115,
+  losses: 3739,
+  tests: 35605,
+  positive: 1546,
+  dailyLoss: 50,
+  recovery: 89480,
+  dailyRecovery: 3084
+}, {
+  date: '10.05',
+  cases: 138657,
+  losses: 3786,
+  tests: 36187,
+  positive: 1542,
+  dailyLoss: 47,
+  recovery: 92691,
+  dailyRecovery: 3211
+}, {
+  date: '11.05',
+  cases: 139771,
+  losses: 3841,
+  tests: 32722,
+  positive: 1114,
+  dailyLoss: 55,
+  recovery: 95780,
+  dailyRecovery: 3089
+}, {
+  date: '12.05',
+  cases: 141475,
+  losses: 3894,
+  tests: 37351,
+  positive: 1704,
+  dailyLoss: 53,
+  recovery: 98889,
+  dailyRecovery: 3109
+}, {
+  date: '13.05',
+  cases: 143114,
+  losses: 3952,
+  tests: 33332,
+  positive: 1639,
+  dailyLoss: 58,
+  recovery: 101715,
+  dailyRecovery: 2826
+}, {
+  date: '14.05',
+  cases: 144749,
+  losses: 4007,
+  tests: 34821,
+  positive: 1635,
+  dailyLoss: 55,
+  recovery: 104030,
+  dailyRecovery: 2315
+}, {
+  date: '15.05',
+  cases: 146457,
+  losses: 4055,
+  tests: 38565,
+  positive: 1708,
+  dailyLoss: 48,
+  recovery: 106133,
+  dailyRecovery: 2103
+}, {
+  date: '16.05',
+  cases: 148067,
+  losses: 4096,
+  tests: 42236,
+  positive: 1610,
+  dailyLoss: 41,
+  recovery: 108137,
+  dailyRecovery: 2004
+}];
