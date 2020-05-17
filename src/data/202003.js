@@ -122,27 +122,35 @@ export default [{
   cases: 7402,
   losses: 108,
   tests: 7641,
+  totalTests: 55464,
   positive: 1704,
-  dailyLoss: 16
+  dailyLoss: 16,
+  recovery: 70,
 }, {
   date: '29.03',
   cases: 9217,
   losses: 131,
   tests: 9982,
+  totalTests: 65446,
   positive: 1815,
-  dailyLoss: 23
+  dailyLoss: 23,
+  recovery: 105,
 }, {
   date: '30.03',
   cases: 10827,
   losses: 168,
   tests: 11535,
+  totalTests: 76981,
   positive: 1610,
-  dailyLoss: 37
+  dailyLoss: 37,
+  recovery: 162,
 }, {
   date: '31.03',
   cases: 13531,
   losses: 214,
   tests: 15422,
+  totalTests: 92403,
   positive: 2704,
-  dailyLoss: 46
+  dailyLoss: 46,
+  recovery: 243
 }];
