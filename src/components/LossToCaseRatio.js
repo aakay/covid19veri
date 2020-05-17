@@ -5,7 +5,7 @@ import Chart from './Chart';
 export default () => (
   <Chart
     id="lossToCaseRatioChart"
-    chartDataKey="lossToCaseRatio"
+    chartDataKeys={["lossToCaseRatio"]}
     labelFormatter={(value) => `${value} tarihindeki toplam kayıp/vaka oranı`}
     headerText="Toplam kayıp/vaka oranı"
     formatter={(value) => [getValueInPercent(value), '']}

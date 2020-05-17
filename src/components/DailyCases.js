@@ -4,7 +4,7 @@ import Chart from './Chart';
 export default () => (
   <Chart
     id="dailyCasesChart"
-    chartDataKey="positive"
+    chartDataKeys={["positive"]}
     labelFormatter={(value) => `${value} tarihindeki vaka`}
     headerText="Günlük vaka"
   />

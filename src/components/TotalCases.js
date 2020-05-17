@@ -4,7 +4,7 @@ import Chart from './Chart';
 export default () => (
   <Chart
     id="totalCasesChart"
-    chartDataKey="cases"
+    chartDataKeys={["cases"]}
     labelFormatter={(value) => `${value} tarihindeki toplam vaka`}
     headerText="Toplam vaka"
   />

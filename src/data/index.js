@@ -10,7 +10,8 @@ const rawData = [
 
 const data = rawData.map(entry => ({
   ...entry,
-  caseToTestRatio: entry.tests ? entry.positive / entry.tests : null,
+  dailyCaseToTestRatio: entry.tests ? entry.positive / entry.tests : null,
+  totalCaseToTestRatio: entry.totalTests ? entry.cases / entry.totalTests : null,
   lossToCaseRatio: entry.cases ? entry.losses / entry.cases : null
 }));
 

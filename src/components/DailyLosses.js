@@ -4,7 +4,7 @@ import Chart from './Chart';
 export default () => (
   <Chart
     id="dailyLossesChart"
-    chartDataKey="dailyLoss"
+    chartDataKeys={["dailyLoss"]}
     labelFormatter={(value) => `${value} tarihindeki kayıp`}
     headerText="Günlük kayıp"
   />
