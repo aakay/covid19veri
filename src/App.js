@@ -1,12 +1,13 @@
 import React from 'react';
 import { Tabs, Row, Col } from 'antd';
 
-import TotalCases from './components/TotalCases';
-import TotalLosses from './components/TotalLosses';
+import ActiveCases from './components/ActiveCases';
+import CaseTestRatio from './components/CaseTestRatio';
 import DailyCases from './components/DailyCases';
 import DailyLosses from './components/DailyLosses';
-import CaseTestRatio from './components/CaseTestRatio';
 import LossToCaseRatio from './components/LossToCaseRatio';
+import TotalCases from './components/TotalCases';
+import TotalLosses from './components/TotalLosses';
 
 import './App.css';
 
@@ -17,6 +18,11 @@ function App() {
     <div className="App">
       <Tabs defaultActiveKey={1} >
         <TabPane tab="Toplam" key={1}>
+          <Row>
+            <Col xs={24} lg={12}>
+              <div><ActiveCases /></div>
+            </Col>
+          </Row>
           <Row>
             <Col xs={24} lg={12}>
               <div><TotalCases /></div>
