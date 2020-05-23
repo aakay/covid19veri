@@ -61,6 +61,7 @@ function App() {
       </Tabs>
       <p style={{ marginTop: 15 }}>Tüm veriler <a href="https://twitter.com/drfahrettinkoca">https://twitter.com/drfahrettinkoca</a> hesabından ve <a href="https://covid19.saglik.gov.tr/">https://covid19.saglik.gov.tr/</a> adresinden alınmıştır. Tamamı resmi veridir.</p>
       <p>Bu site, tüm verileri bir arada görebilmek konusunda kolaylık olması için hızlıca yapılmıştır. Herhangi resmi bir özelliği yoktur. Verilerin uyuşmaması durumunda (gözden kaçmış olabilir) kaynak olarak kullanılmamalıdır.</p>
+      <p style={{ marginTop: 30 }}>Bu sitenin tüm koduna <a href="https://github.com/aakay/covid19veri">buradan</a> ulaşabilirsiniz.</p>
     </div >
   );
 }
