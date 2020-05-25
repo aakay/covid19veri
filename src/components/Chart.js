@@ -14,6 +14,7 @@ export default ({ id, chartDataKeys, headerText, labelFormatter, formatter, note
         <CartesianGrid strokeDasharray="3 3" />
         {chartDataKeys.map((chartDataKey, index) => (
           <Area
+            key={`${chartDataKey}-${index}`}
             dataKey={chartDataKey}
             type="monotone"
             connectNulls={true}

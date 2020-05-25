@@ -5,11 +5,14 @@ import ActiveCases from './components/ActiveCases';
 import CaseTestRatio from './components/CaseTestRatio';
 import DailyCases from './components/DailyCases';
 import DailyLosses from './components/DailyLosses';
+import DailyRecovery from './components/DailyRecovery';
 import LossToCaseRatio from './components/LossToCaseRatio';
 import TotalCases from './components/TotalCases';
 import TotalLosses from './components/TotalLosses';
+import TotalRecovery from './components/TotalRecovery';
 
 import './App.css';
+
 
 function App() {
   const { TabPane } = Tabs;
@@ -20,41 +23,51 @@ function App() {
         <TabPane tab="Toplam" key={1}>
           <Row>
             <Col xs={24} lg={12}>
-              <div><ActiveCases /></div>
+              <ActiveCases />
             </Col>
           </Row>
           <Row>
             <Col xs={24} lg={12}>
-              <div><TotalCases /></div>
+              <TotalCases />
             </Col>
           </Row>
           <Row>
             <Col xs={24} lg={12}>
-              <div><TotalLosses /></div>
+              <TotalLosses />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={24} lg={12}>
+              <TotalRecovery />
             </Col>
           </Row>
         </TabPane>
         <TabPane tab="Günlük" key={2}>
           <Row>
             <Col xs={24} lg={12}>
-              <div><DailyCases /></div>
+              <DailyCases />
             </Col>
           </Row>
           <Row>
             <Col xs={24} lg={12}>
-              <div><DailyLosses /></div>
+              <DailyLosses />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={24} lg={12}>
+              <DailyRecovery />
             </Col>
           </Row>
         </TabPane>
         <TabPane tab="Oranlar" key={3}>
           <Row>
             <Col xs={24} lg={12}>
-              <div><CaseTestRatio /></div>
+              <CaseTestRatio />
             </Col>
           </Row>
           <Row>
             <Col xs={24} lg={12}>
-              <div><LossToCaseRatio /></div>
+              <LossToCaseRatio />
             </Col>
           </Row>
         </TabPane>

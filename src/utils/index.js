@@ -4,7 +4,7 @@ const caseTexts = {
 }
 
 export function getValueInPercent(value) {
-  return `${Number.parseFloat(value * 100).toFixed(2)}%`;
+  return `${Number.parseFloat(value * 100).toFixed(4)}%`;
 };
 
 export function getCaseText(name) {
