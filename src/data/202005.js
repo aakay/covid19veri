@@ -267,5 +267,5 @@ export default [{
   positive: 1035,
   dailyLoss: 34,
   recovery: 122793,
-  dailyRecovery: 1284
+  dailyRecovery: 1286
 }];
