@@ -1,7 +1,7 @@
 import march2020 from './202003';
 import april2020 from './202004';
 import may2020 from './202005';
-import june2020 from './202005';
+import june2020 from './202006';
 
 const rawData = [
   ...march2020,
