@@ -204,7 +204,7 @@ export default [{
   losses: 4950,
   tests: 40496,
   totalTests: 2945240,
-  positive: 1412,
+  positive: 1192,
   dailyLoss: 23,
   recovery: 160240,
   dailyRecovery: 1412
