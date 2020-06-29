@@ -278,4 +278,14 @@ export default [{
   dailyLoss: 15,
   recovery: 170595,
   dailyRecovery: 1413
+}, {
+  date: '29.06',
+  cases: 198613,
+  losses: 5115,
+  tests: 51014,
+  totalTests: 3331158,
+  positive: 1374,
+  dailyLoss: 18,
+  recovery: 171809,
+  dailyRecovery: 1214
 }];
