@@ -3,13 +3,15 @@ import april2020 from './202004';
 import may2020 from './202005';
 import june2020 from './202006';
 import july2020 from './202007';
+import august2020 from './202008';
 
 const rawData = [
   ...march2020,
   ...april2020,
   ...may2020,
   ...june2020,
-  ...july2020
+  ...july2020,
+  ...august2020
 ];
 
 const data = rawData.map(entry => ({
