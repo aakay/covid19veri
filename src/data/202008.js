@@ -250,7 +250,7 @@ export default [{
   dailyRecovery: 887
 }, {
   date: '26.08',
-  cases: 2621749,
+  cases: 262507,
   losses: 6183,
   tests: 100109,
   totalTests: 6621749,
