@@ -48,4 +48,44 @@ export default [{
   dailyLoss: 56,
   recovery: 250092,
   dailyRecovery: 984
+}, {
+  date: '06.09',
+  cases: 279806,
+  losses: 6673,
+  tests: 96842,
+  totalTests: 7779539,
+  positive: 1578,
+  dailyLoss: 53,
+  recovery: 251105,
+  dailyRecovery: 1013
+}, {
+  date: '07.09',
+  cases: 281509,
+  losses: 6730,
+  tests: 103925,
+  totalTests: 7883464,
+  positive: 1703,
+  dailyLoss: 57,
+  recovery: 252152,
+  dailyRecovery: 1047
+}, {
+  date: '08.09',
+  cases: 283509,
+  losses: 6782,
+  tests: 110565,
+  totalTests: 7994029,
+  positive: 1761,
+  dailyLoss: 52,
+  recovery: 253245,
+  dailyRecovery: 1093
+}, {
+  date: '09.09',
+  cases: 284943,
+  losses: 6837,
+  tests: 111193,
+  totalTests: 8105222,
+  positive: 1673,
+  dailyLoss: 55,
+  recovery: 254188,
+  dailyRecovery: 943
 }];
